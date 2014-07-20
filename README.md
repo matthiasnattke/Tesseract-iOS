@@ -2,7 +2,7 @@
 Tesseract-iOS
 =============
 
-Tesseract OCR (3.0.2) on iOS (7.0++, no arm6),
+Tesseract OCR (3.0.2) on iOS (7.1++, no arm6),
 
 Scope
 -----

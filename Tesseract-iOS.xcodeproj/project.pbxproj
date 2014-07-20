@@ -61,6 +61,11 @@
 		3878361A16C8EB39006DCBB4 /* Tesseract_iOS.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3878361916C8EB39006DCBB4 /* Tesseract_iOS.sqlite */; };
 		3898DBD816C8F174008DDB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898DBD716C8F174008DDB60 /* libsqlite3.dylib */; };
 		3898DBD916C8F1AC008DDB60 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3898DBD716C8F174008DDB60 /* libsqlite3.dylib */; };
+		393D89D6197BE1E200735DDE /* ipsum-ger.png in Resources */ = {isa = PBXBuildFile; fileRef = 393D89D5197BE1E200735DDE /* ipsum-ger.png */; };
+		393D89DA197BE9DC00735DDE /* essen.png in Resources */ = {isa = PBXBuildFile; fileRef = 393D89D9197BE9DC00735DDE /* essen.png */; };
+		393D89EA197BF68E00735DDE /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 393D89E9197BF68E00735DDE /* example.png */; };
+		393D89EC197BF6D100735DDE /* zaehler.png in Resources */ = {isa = PBXBuildFile; fileRef = 393D89EB197BF6D100735DDE /* zaehler.png */; };
+		393D89F6197BFAFC00735DDE /* zaehler2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 393D89F5197BFAFC00735DDE /* zaehler2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,6 +175,11 @@
 		3878361616C8E3A8006DCBB4 /* StorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
 		3878361916C8EB39006DCBB4 /* Tesseract_iOS.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tesseract_iOS.sqlite; sourceTree = "<group>"; };
 		3898DBD716C8F174008DDB60 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		393D89D5197BE1E200735DDE /* ipsum-ger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipsum-ger.png"; sourceTree = "<group>"; };
+		393D89D9197BE9DC00735DDE /* essen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = essen.png; sourceTree = "<group>"; };
+		393D89E9197BF68E00735DDE /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		393D89EB197BF6D100735DDE /* zaehler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zaehler.png; sourceTree = "<group>"; };
+		393D89F5197BFAFC00735DDE /* zaehler2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaehler2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,6 +398,11 @@
 		3873F53E16C7E5B1006971EE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				393D89F5197BFAFC00735DDE /* zaehler2.jpg */,
+				393D89E9197BF68E00735DDE /* example.png */,
+				393D89D9197BE9DC00735DDE /* essen.png */,
+				393D89D5197BE1E200735DDE /* ipsum-ger.png */,
+				393D89EB197BF6D100735DDE /* zaehler.png */,
 				3878361916C8EB39006DCBB4 /* Tesseract_iOS.sqlite */,
 				3873F54F16C7E7CD006971EE /* gjpqy_.tiff */,
 				3873F55016C7E7CD006971EE /* gjpqy_2.tiff */,
@@ -458,6 +473,7 @@
 		3873F4AF16C7E4F8006971EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jurgen Schwietering";
 			};
@@ -484,10 +500,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393D89F6197BFAFC00735DDE /* zaehler2.jpg in Resources */,
+				393D89EA197BF68E00735DDE /* example.png in Resources */,
 				3873F4C716C7E4F8006971EE /* InfoPlist.strings in Resources */,
 				3873F4CF16C7E4F8006971EE /* Default.png in Resources */,
 				3873F4D116C7E4F8006971EE /* Default@2x.png in Resources */,
 				3873F4D316C7E4F8006971EE /* Default-568h@2x.png in Resources */,
+				393D89DA197BE9DC00735DDE /* essen.png in Resources */,
 				3873F4D616C7E4F8006971EE /* MainStoryboard_iPhone.storyboard in Resources */,
 				3873F4D916C7E4F8006971EE /* MainStoryboard_iPad.storyboard in Resources */,
 				3873F54616C7E5B1006971EE /* text1_lucida.png in Resources */,
@@ -501,6 +520,8 @@
 				3873F55D16C7E7CE006971EE /* HolaCaracola3.tiff in Resources */,
 				3873F55F16C7E7CE006971EE /* HolaCaracolaBoxes.tiff in Resources */,
 				3878361A16C8EB39006DCBB4 /* Tesseract_iOS.sqlite in Resources */,
+				393D89EC197BF6D100735DDE /* zaehler.png in Resources */,
+				393D89D6197BE1E200735DDE /* ipsum-ger.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

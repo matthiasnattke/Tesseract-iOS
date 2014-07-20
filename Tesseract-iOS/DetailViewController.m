@@ -58,7 +58,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    tesseract = [[TesseractWrapper alloc] initEngineWithLanguage:@"eng"];
+    tesseract = [[TesseractWrapper alloc] initEngineWithLanguage:@"letsgodigital"];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
 

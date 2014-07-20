@@ -21,7 +21,7 @@
 - (void)setUp
 {
     [super setUp];
-    tesseract = [[TesseractWrapper alloc] initEngineWithLanguage:@"eng"];
+    tesseract = [[TesseractWrapper alloc] initEngineWithLanguage:@"deu"];
     
     // Set-up code here.
 }
@@ -49,6 +49,7 @@
     [self runSingleImage:@"Hola caracola!" imageName:@"HolaCaracola3.tiff"];
     [self runSingleImage:@"gjpqy_" imageName:@"gjpqy_.tiff"];
     [self runSingleImage:@"gjpqy_" imageName:@"gjpqy_2.tiff"];
+    [self runSingleImage:@"loremIpsum_" imageName:@"ipsum-ger.png"];
 }
 
 @end
